@@ -2,8 +2,10 @@
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
        <head>
-       <script src="Devchannel_HelloWorld::js/myjs.js"/>
-       <css src="Devchannel_HelloWorld::css/mycss.css"/>
+        <css src="Devchannel_HelloWorld::css/owlcarousel/owl.carousel.min.css"/>
+        <css src="Devchannel_HelloWorld::css/owlcarousel/owl.theme.default.min.css"/>
+      <css src="Devchannel_HelloWorld::css/mycss.css"/>
+      <script src="Devchannel_HelloWorld::js/myjs.js"/>
    </head> 
     <body>
         <referenceContainer name="content">
