@@ -4,12 +4,10 @@
        <head>
         <css src="Devchannel_HelloWorld::css/owlcarousel/owl.carousel.min.css"/>
         <css src="Devchannel_HelloWorld::css/owlcarousel/owl.theme.default.min.css"/>
-      <css src="Devchannel_HelloWorld::css/mycss.css"/>
-      <script src="Devchannel_HelloWorld::js/myjs.js"/>
    </head> 
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="devchannel_index_index"
+            <block class="Magento\Framework\View\Element\Template" name="devchannel.index.index"
                    template="Devchannel_HelloWorld::helloworld.phtml" />
         </referenceContainer>
     </body>

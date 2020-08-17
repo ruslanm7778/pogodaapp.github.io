@@ -1,6 +1,6 @@
 define([
 'jquery',
-'Devchannel_HelloWorld/js/owlcarousel/owl.carousel.min'
+'owlcarouselmin'
 	], function ($) {
 'use strict';
 
