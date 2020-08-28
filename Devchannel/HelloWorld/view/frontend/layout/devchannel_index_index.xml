@@ -6,6 +6,7 @@
         <css src="Devchannel_HelloWorld::css/owlcarousel/owl.theme.default.min.css"/>
    </head> 
     <body>
+      <move element="minicart" destination="header.panel" after="header.links" as="minicart"/>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="devchannel.index.index"
                    template="Devchannel_HelloWorld::helloworld.phtml" />
